@@ -42,7 +42,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ env.OWNER_LC }}/edtaxx:v20260615.1
+            ghcr.io/${{ env.OWNER_LC }}/edtaxx:v20261108.x
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
